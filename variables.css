@@ -1,0 +1,12 @@
+:root {
+  --primary: #1e40af;        /* Azul institucional */
+  --accent: #22c55e;         /* Verde técnico / estado */
+  --danger: #dc2626;         /* Alertas */
+  --neutral-bg: #f8fafc;     
+  --neutral-bg-dark: #0f172a; 
+  --text-main: #1e293b;
+  --text-light: #f8fafc;
+  
+  --font-main: 'Inter', sans-serif;
+  --font-heading: 'JetBrains Mono', monospace;
+}
