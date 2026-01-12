@@ -1,23 +1,7 @@
  :root {
-  /* Colores principales */
-  --green-pantone-372: #C6FF00;
-  --blue-primary: #1e40af;
-  --blue-hover: #0033a0;
-  --text-dark: #1b1b1b;
-  --text-light: #f8fafc;
-  --bg-light: #f8fafc;
-  --bg-dark: #0f172a;
-  --gray-light: #f1f5f9;
-  --gray-dark: #334155;
-
-  /* Tipografía */
-  --font-primary: 'Inter', sans-serif;
-
-  /* Espaciados */
-  --padding-section: 60px;
-  --border-radius: 16px;
-
-  /* Sombras premium */
-  --shadow-card: 0 15px 35px rgba(0,0,0,0.15);
-  --shadow-hover: 0 20px 50px rgba(0,0,0,0.25);
+  --bg: #0f172a;
+  --text: #f8fafc;
+  --primary: #1e40af;
+  --red: #dc2626;
+  --acid: #ccff00;
 }
