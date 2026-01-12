@@ -1,45 +1,5 @@
- /* Mobile first */
-body {
-  font-size: 16px;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-}
-
-.hero p {
-  font-size: 1.1rem;
-}
-
-.grid-services,
-.testimonials {
-  grid-template-columns: 1fr;
-}
-
-/* Tablets */
-@media (min-width: 600px) {
-  .hero h1 {
-    font-size: 3rem;
-  }
-  .hero p {
-    font-size: 1.25rem;
-  }
-  .grid-services,
-  .testimonials {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Desktop */
-@media (min-width: 992px) {
-  .hero h1 {
-    font-size: 3.5rem;
-  }
-  .hero p {
-    font-size: 1.5rem;
-  }
-  .grid-services,
-  .testimonials {
-    grid-template-columns: repeat(3, 1fr);
+ @media (max-width: 768px) {
+  .hero {
+    padding: 100px 15px;
   }
 }
