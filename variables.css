@@ -1,12 +1,17 @@
-:root {
-  --primary: #1e40af;        /* Azul institucional */
-  --accent: #22c55e;         /* Verde técnico / estado */
-  --danger: #dc2626;         /* Alertas */
-  --neutral-bg: #f8fafc;     
-  --neutral-bg-dark: #0f172a; 
-  --text-main: #1e293b;
+ :root {
+  /* Colores principales */
+  --green-pantone-372: #C6FF00;
+  --blue-primary: #1e40af;
+  --blue-hover: #0033a0;
+  --text-dark: #1b1b1b;
   --text-light: #f8fafc;
-  
-  --font-main: 'Inter', sans-serif;
-  --font-heading: 'JetBrains Mono', monospace;
+  --bg-light: #f8fafc;
+  --bg-dark: #0f172a;
+
+  /* Tipografía */
+  --font-primary: 'Inter', sans-serif;
+
+  /* Espaciados */
+  --padding-section: 60px;
+  --border-radius: 12px;
 }
