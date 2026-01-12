@@ -1,4 +1,4 @@
-async function cargarDEFCON() {
+ async function cargarDEFCON() {
   const feed = document.getElementById("news-feed");
 
   const fuentes = [
