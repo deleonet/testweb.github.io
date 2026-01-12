@@ -1,4 +1,8 @@
- body {
+ * {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background: var(--bg);
@@ -6,6 +10,7 @@
   padding-top: 40px;
 }
 
+/* ===== DEFCON MARQUEE ===== */
 .news-bar {
   position: fixed;
   top: 0;
@@ -21,7 +26,7 @@
 
 .news-title {
   background: var(--red);
-  padding: 0 15px;
+  padding: 0 16px;
   font-weight: 800;
   letter-spacing: 2px;
   height: 100%;
@@ -33,7 +38,7 @@
   white-space: nowrap;
   padding-left: 100%;
   animation: marquee 120s linear infinite;
-  color: var(--acid);
+  color: var(--acid-green);
   font-weight: 700;
 }
 
@@ -42,29 +47,67 @@
   to { transform: translateX(-100%); }
 }
 
+/* ===== HERO ===== */
 .hero {
   padding: 140px 20px;
   text-align: center;
 }
 
+.hero-box {
+  max-width: 900px;
+  margin: auto;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 30px;
+  background: var(--acid-green);
+  color: #000;
+  font-weight: 800;
+  border-radius: var(--radius);
+  text-decoration: none;
+}
+
+/* ===== SECCIONES ===== */
 .section {
   padding: 80px 20px;
 }
 
 .grid-services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
   gap: 30px;
 }
 
 .card {
-  background: #020617;
-  padding: 30px;
-  border-radius: 12px;
+  background: var(--bg-soft);
+  padding: 35px;
+  border-radius: var(--radius);
   border: 1px solid #1e293b;
 }
 
 .icon {
-  font-size: 2.5rem;
-  color: var(--acid);
+  font-size: 2.6rem;
+  color: var(--acid-green);
+}
+
+/* ===== CONTACTO ===== */
+.contact-block {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.email {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--acid-green);
+  text-decoration: none;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--muted);
 }
