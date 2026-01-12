@@ -1,5 +1,25 @@
-@media (max-width:768px){
-  .hero h1 { font-size:2rem; }
-  .hero p { font-size:1rem; }
-  .grid-services, .testimonials { grid-template-columns: 1fr; }
+ /* Mobile first (default) */
+body {
+  font-size: 16px;
+}
+
+/* Ajustes hero para móviles */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .btn-primary {
+    padding: 12px 24px;
+  }
+}
+
+/* Ajustes servicios y testimonios */
+@media (max-width: 600px) {
+  .grid-services,
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
 }
