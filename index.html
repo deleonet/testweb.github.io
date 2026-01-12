@@ -3,17 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>DeLeonET | Infraestructura Crítica & Ciberseguridad</title>
 
+  <!-- Seguridad -->
   <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none';">
   <meta http-equiv="X-Frame-Options" content="DENY">
 
+  <!-- Tipografía e iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS del proyecto -->
   <link rel="stylesheet" href="variables.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,15 +26,18 @@
 <div class="news-bar">
   <div class="news-title">DEFCON FEED</div>
   <div class="marquee-content" id="news-feed">
-    INICIALIZANDO MONITOREO GLOBAL DEFCON…
+    INICIALIZANDO MONITOREO GLOBAL…
   </div>
 </div>
 
 <!-- ================= HERO ================= -->
 <section class="hero">
-  <div>
+  <div class="hero-box">
     <h1>Infraestructura Crítica & Ciberseguridad</h1>
-    <p>Protección, resiliencia y continuidad operativa para entornos de misión crítica.</p>
+    <p>
+      Optimización, protección y continuidad operativa para entornos
+      de misión crítica con monitoreo activo 24/7.
+    </p>
     <a href="#servicios" class="btn-primary">Ver Servicios</a>
   </div>
 </section>
@@ -43,13 +50,13 @@
     <div class="card">
       <i class="fas fa-server icon"></i>
       <h3>Infraestructura TI</h3>
-      <p>Alta disponibilidad, virtualización y continuidad operativa.</p>
+      <p>Alta disponibilidad, virtualización y continuidad del negocio.</p>
     </div>
 
     <div class="card">
       <i class="fas fa-network-wired icon"></i>
       <h3>Redes & Conectividad</h3>
-      <p>LAN / WAN / VPN con enfoque en resiliencia.</p>
+      <p>LAN / WAN / VPN con diseño resiliente.</p>
     </div>
 
     <div class="card">
@@ -64,13 +71,18 @@
 <section class="contact-block">
   <h2>Contacto Profesional</h2>
   <p>Escríbenos directamente a:</p>
-  <a href="mailto:soportedeleonnet@gmail.com">soportedeleonnet@gmail.com</a>
+  <a href="mailto:soportedeleonnet@gmail.com" class="email">
+    soportedeleonnet@gmail.com
+  </a>
 </section>
 
 <footer>
 © 2026 DeLeonET | Infraestructura Crítica & Ciberseguridad
 </footer>
 
+<!-- JS DEL PROYECTO -->
 <script src="defcon-feed.js"></script>
+<script src="main.js"></script>
+
 </body>
 </html>
